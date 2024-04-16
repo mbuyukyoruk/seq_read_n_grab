@@ -21,13 +21,12 @@ tqdm                                                refer to https://pypi.org/pr
 
 Input Paramaters (REQUIRED):
 ----------------------------
-	-i/--input		FASTA			Specify a fasta file. FASTA file requires headers starting with accession number. (i.e. >NZ_CP006019 
-[fullname])
 
-	-l/--list		List			Specify a list of accession (Accession only). Each accession should be included in a new line (i.e. 
-generated with Excel spreadsheet). Script works with or without '>' symbol before the accession.
+	-i/--input		FASTA			Specify a fasta file. FASTA file requires headers starting with accession number. (i.e. >NZ_CP006019 [fullname])
 
-	-o/--output		output file	    Specify a output file name that should contain fetched sequences.
+	-l/--list		List			Specify a list of accession (Accession only). Each accession should be included in a new line (i.e. generated with Excel spreadsheet). Script works with or without '>' symbol before the accession.
+
+	-o/--output		output file		Specify a output file name that should contain fetched sequences.
 
 Basic Options:
 --------------
